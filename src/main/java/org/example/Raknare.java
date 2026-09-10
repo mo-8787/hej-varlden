@@ -9,7 +9,7 @@ public class Raknare {
         int a = Scan.nextInt();
         System.out.print("Ange ett ytterligare tal: ");
         int b = Scan.nextInt();
-        System.out.println("Produkten är: " + (a * b));
+        System.out.println("Kvoten är: " + (a / b));
 
     }
 }
