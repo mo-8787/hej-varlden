@@ -13,5 +13,6 @@ public class Tempkonvertering {
         double kelvin = celsius + 273.15;
 
         System.out.printf("%.1f°C är %.1f°F och %.1f°K%n" , celsius, fahrenheit, kelvin);
+        Scan.close();
     }
 }
