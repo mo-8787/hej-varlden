@@ -10,8 +10,8 @@ public class Raknare {
         System.out.print("Ange ett ytterligare tal: ");
         double b = Scan.nextInt();
 
-        double kvot = (a / b);
-        System.out.printf("Kvoten är %.2f%n" , kvot);
+        double rest = (a % b);
+        System.out.printf("Rest är %.2f" , rest);
         Scan.close();
 
     }
