@@ -8,7 +8,7 @@ public class GuessTheNumber {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
 
-        int secret = random.nextInt(10) +1;
+        int secret = random.nextInt(100) +1;
         int guesses = 0;
         int input;
         System.out.print("Guess the number: ");
