@@ -30,12 +30,9 @@ public class MenyLoop {
                 case 3 -> System.out.println(rand.nextInt(100) + 1);
                 case 4 -> { System.out.println("Hej då!"); running = false;}
                 default -> System.out.println("Ogiltigt val. Försök igen.");
-
-
-
             }
         }
-
-
+        scan.close();
     }
+
 }
